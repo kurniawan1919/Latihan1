@@ -1,0 +1,38 @@
+ul.ig , ul.pembelajaran {
+	list-style-image:url('../images/emote.gif');
+	text-align:left;
+}
+/*belajar pseude class*/
+a:link, a:visited {
+	font-weight:bold;
+	text-decoration:none;
+	color:black;
+}
+a:hover{
+	font-weight:bold;
+	text-decoration:none;
+	color:black;
+	border:2px dashed black;
+	background-color:#FFD9B7;
+}
+a:active {
+	font-weight:bold;
+	text-decoration:none;
+	color:yellow;
+	border:1px dotted red;
+	background-color:orange;
+	padding:5px;
+}
+@font-face {
+  font-family: myBackyard;
+  src: url('backyard.otf');
+}
+
+*{ /* universal untuk seluruh selector */
+  font-family: myBackyard;
+}
+h1.judul {
+	font-weight:bold;
+	color:#F7E987;
+	text-shadow: 6px 6px 15px black;
+}

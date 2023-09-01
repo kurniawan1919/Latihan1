@@ -1,0 +1,35 @@
+#menu {
+	text-align:center;
+}
+/*belajar pseude class*/
+a:link, a:visited {
+	font-weight:bold;
+	text-decoration:none;
+	color:#F7E987;
+	border:2px solid black;
+	background-color:#5B9A8B;
+	padding:5px;
+}
+a:hover{
+	font-weight:bold;
+	text-decoration:none;
+	color:black;
+	border:2px dashed black;
+	background-color:#F7E987;
+}
+a:active {
+	font-weight:bold;
+	text-decoration:none;
+	color:yellow;
+	border:1px dotted black;
+	background-color:orange;
+	padding:5px;
+}
+@font-face {
+  font-family: myBackyard;
+  src: url('backyard.otf');
+}
+
+*{ /* universal untuk seluruh selector */
+  font-family: myBackyard;
+}
